@@ -10,17 +10,17 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link BlankFragment#newInstance} factory method to
+ * Use the {@link ProductInfo#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BlankFragment extends Fragment {
+public class ProductInfo extends Fragment {
 
-    public BlankFragment() {
+    public ProductInfo() {
         // Required empty public constructor
     }
 
-    public static BlankFragment newInstance(String param1, String param2) {
-        BlankFragment fragment = new BlankFragment();
+    public static ProductInfo newInstance(String param1, String param2) {
+        ProductInfo fragment = new ProductInfo();
         return fragment;
     }
 
