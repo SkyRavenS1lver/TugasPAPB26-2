@@ -19,6 +19,7 @@ public class BlankFragment extends Fragment {
         // Required empty public constructor
     }
 
+
     public static BlankFragment newInstance(String param1, String param2) {
         BlankFragment fragment = new BlankFragment();
         return fragment;
